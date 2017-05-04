@@ -1,0 +1,38 @@
+{
+  "name": "magnet-bugsnag",
+  "version": "0.1.0",
+  "description": "Magnet adapter for bugsnag",
+  "keywords": [
+    "magnet",
+    "magnetjs",
+    "bugsnag"
+  ],
+  "homepage": "https://github.com/magnetjs/magnet-bugsnag#readme",
+  "bugs": {
+    "url": "https://github.com/magnetjs/magnet-bugsnag/issues"
+  },
+  "author": "Kieve Chua <kievechua@gmail.com> (https://github.com/kievechua)",
+  "main": "index.js",
+  "repository": "magnetjs/magnet-bugsnag",
+  "scripts": {
+    "start": "fly",
+    "build": "fly buildAndCopy",
+    "dist": "npm run build && cd dist && npm publish"
+  },
+  "dependencies": {
+    "bugsnag": "^1.10.0",
+    "magnet-core": "^3.9.0"
+  },
+  "devDependencies": {
+    "fly": "^2.0.6",
+    "fly-clear": "^1.0.1",
+    "fly-esnext": "^2.0.1",
+    "fly-flatten": "^1.0.1",
+    "fly-typescript": "^1.1.0",
+    "fly-watch": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  },
+  "license": "MIT"
+}
